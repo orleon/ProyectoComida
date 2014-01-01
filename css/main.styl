@@ -1,0 +1,156 @@
+@font-face {
+	font-family: 'icono';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+	background #ddd
+	color #333
+	font-size: 16px
+
+.header-index
+	img
+		width 100%
+
+.cont-index
+	background #ddd
+	margin 15px
+
+	article
+		margin 5px
+	
+	.img
+		background white
+		border-radius 1em
+		box-shadow 0px 15px 5px #333
+		padding 15px
+
+		.fotos
+			text-align center
+			width 100%
+			img
+				border-radius 1em
+				width 49%
+
+		.principal
+			img
+				border-radius 1em
+				width 100%
+	
+	.login
+		background white
+		border-radius 1em
+		box-shadow 0px 15px 5px #333
+		margin-bottom 35px
+		padding 5px
+	
+		.input
+			text-align center
+			
+			input
+				border 0px
+				color #bbb
+				display inline-block
+				margin 5px
+				overflow hidden
+				width 75%
+			
+			label
+				display inline-block
+				horizontal-align center
+				width 10%
+
+		.action
+			display inline-block
+			text-align right
+			width 40%
+
+			.intro
+				background blue
+				border 0px
+				border-radius 5px
+				color #ccc
+				font-weight:bold
+				font-size 0.8em
+				padding 5px 15px
+
+		.forgot
+			display inline-block
+			margin-left 7%
+			text-align left
+			width 50%
+
+			a
+				color #ccc
+				text-decoration none
+
+		.pass:before
+			font-family 'icono'
+			content '\e60c'
+			text-shadow 1.5px 1.5px 2px #333
+
+		.user:before
+			font-family 'icono'
+			content "\e604"
+			text-shadow 1.5px 1.5px 2px #333
+
+
+.facebook:before
+	font-family 'icono'
+	content '\e613'
+
+.footer-index
+	background-color #111
+	color #5c5
+	font-size 1.5em
+	height 75px
+	text-align center
+
+	a
+		text-decoration none
+	p
+		display inline-block
+		margin-left 0.5em
+		margin-right 0.5em
+		text-shadow 1.5px 1.5px 2px #333
+	
+.gpp:before
+	font-family 'icono'
+	content '\e616'
+
+.pinteres:before
+	font-family 'icono'
+	content '\e61e'
+
+.twitter:before
+	font-family 'icono'
+	content '\e61d'
+
+@media screen and (min-width:640px)
+	.cont-index
+		margin 0px
+		padding 0px
+		position absolute
+		top 300px
+
+		div
+			display inline-block
+			margin 0px
+			padding 0px
+			vertical-align middle
+			width 49%
+
+		.img
+			display inline-block
+			margin  0px
+
+		.login
+			display inline-block
+			margin 0px
+			vertical-align 20%
